@@ -1,0 +1,29 @@
+body {
+    background-color: darkslategrey;
+}
+
+.nav-bar .color {
+    background-color: aquamarine;
+}
+
+.nav-bar .cell, .nav-bar-table, .nav-bar {
+    height: 50px;
+}
+
+.nav-bar {
+    position: absolute;
+}
+
+.landing-container {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.full-width-container {
+    margin: 0px -10px;
+}
+
+.contents-container {
+    background-color: cadetblue;
+}
