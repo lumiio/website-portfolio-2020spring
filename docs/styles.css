@@ -1,17 +1,63 @@
 body {
-    background-color: darkslategrey;
+    margin: 0px;
+    background-color: rgb(21, 38, 49);
 }
 
-.nav-bar .color {
-    background-color: aquamarine;
+.full-width-container {
+    width: 100%;
+    margin-top: 50px;
 }
 
-.nav-bar .cell, .nav-bar-table, .nav-bar {
+.nav-bar .cell {
     height: 50px;
+    background-color: rgb(78, 152, 212);
+}
+
+.nav-bar .left {
+    float: left;
+}
+
+.nav-bar .left:hover, .page-link:hover {
+    background-color: rgb(103, 187, 255);
+}
+
+.nav-bar .right {
+    float: right;
+    line-height: 50px;
 }
 
 .nav-bar {
-    position: absolute;
+    position: sticky;
+    height: 50px;
+    top: 10px;
+    z-index: 2;
+}
+
+.home-icon {
+    display: block;
+    padding: 2px 8px;
+}
+
+.home-span {
+    padding: 3px;
+}
+
+.page-link {
+    float: right;
+    width: 150px;
+    text-align: center;
+}
+
+.nav-bar .right .last {
+    margin-right: 300px;
+}
+
+.nav-bar .right .first {
+    margin-left: 100px;
+}
+
+.nav-bar .right .selected {
+    background-color: rgb(49, 113, 167);;
 }
 
 .landing-container {
@@ -20,25 +66,15 @@ body {
     overflow: hidden;
 }
 
-.full-width-container {
-    margin: 0px -10px;
-}
-
 .contents-container {
     background-color: cadetblue;
 }
 .scroll-body {
-    width: 80%;
+    width: 1000px;
     margin: auto;
     background-color: black;
     height: 100%;
-    padding: 30px 0px;
-}
-
-body {
-    margin: 0px;
-    overflow-x: hidden;
-    background-color: rgb(21, 38, 49);
+    padding: 150px 0px;
 }
 
 .block {
@@ -50,12 +86,12 @@ body {
     margin-bottom: 30px;
 }
 
-.left {
+.scroll-body .left {
     right: 12.5%;
     text-align: right;
 }
 
-.right {
+.scroll-body .right {
     left: 12.5%;
     text-align: left;
 }
