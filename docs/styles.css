@@ -24,6 +24,9 @@ body {
 .nav-bar .right {
     float: right;
     line-height: 50px;
+    border-left-style: solid;
+    border-left-color: white;
+    border-left-width: 10px;
 }
 
 .nav-bar {
@@ -39,6 +42,7 @@ body {
 }
 
 .home-span {
+    font-family: 'Assistant';
     padding: 3px;
 }
 
@@ -46,10 +50,21 @@ body {
     float: right;
     width: 150px;
     text-align: center;
+    border-left-style: solid;
+    border-left-color: rgb(79, 105, 144);
+    border-left-width: 1px;
+}
+
+.header-text {
+    font-family: 'Assistant';
+    color: rgb(255, 255, 255, 1);
 }
 
 .nav-bar .right .last {
     margin-right: 300px;
+    border-right-style: solid;
+    border-right-color: rgb(79, 105, 144);
+    border-right-width: 1px;
 }
 
 .nav-bar .right .first {
@@ -75,6 +90,7 @@ body {
     background-color: black;
     height: 100%;
     padding: 150px 0px;
+    margin-top: -115px;
 }
 
 .block {
@@ -89,11 +105,17 @@ body {
 .scroll-body .left {
     right: 12.5%;
     text-align: right;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .scroll-body .right {
     left: 12.5%;
     text-align: left;
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: column;
 }
 
 .small-text {
@@ -107,6 +129,15 @@ body {
     font-size: 60px;
     font-weight: 400;
     color: rgb(255, 255, 255, 1);
+}
+
+.display-table {
+    height: 260px;
+    padding: 20px 0px;
+}
+
+.logo {
+    height: 250px;
 }
 
 .game-image {

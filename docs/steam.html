@@ -15,34 +15,76 @@
             <span class="home-span">Home</span>
         </div>
         <div class="cell right">
-            <div class="page-link last">
-                <span>Switch</span>
+            <div class="page-link last" onclick="window.location='./switch.html'">
+                <span class="header-text">Switch</span>
             </div>
-            <div class="page-link">
-                <span>PS4</span>
+            <div class="page-link" onclick="window.location='./psfour.html'">
+                <span class="header-text">PS4</span>
             </div>
-            <div class="page-link first selected">
-                <span>PC/Steam</span>
+            <div class="page-link first selected" onclick="window.location='./steam.html'">
+                <span class="header-text">PC/Steam</span>
             </div>
             
         </div>
     </div>
     <div class="scroll-body">
         <div class='block left'>
-            <span class='small-text'>In 2019, you beat</span>
-            <span class='big-text'>14 games</span>
-            <span class='small-text'>on Steam</span>
+            <table class='display-table'>
+                <tr>
+                    <td>
+                        <img src="steam.png" alt="Steam Logo" class='logo'/>
+                    </td>
+                    <td>
+                        <br />
+                        <span class='small-text'>In 2019, you beat</span>
+                        <br />
+                        <span class='big-text'>14 games</span>
+                        <br />
+                        <span class='small-text'>on Steam</span>
+                    </td>
+                </tr>
+                
+            </table>
         </div>
         <div class='block right'>
-            <img src="ff14.png" alt="Final Fantasy XIV" class='game-image' />
-            <span class='small-text'>Your most played game was</span>
-            <span class='big-text'>Final Fantasy XIV</span>
-            <span class='small-text'>with a whopping</span>
-            <span class='big-text'>2129</span> <span class="small-text">hours on record</span>
+            <table class='display-table'>
+                <tr>
+                    <td>
+                        <span class='small-text'>Your most played game was</span>
+                        <br />
+                        <span class='big-text'>Final Fantasy XIV</span>
+                        <br />
+                        <span class='small-text'>with a whopping</span>
+                        <br />
+                        <span class='big-text'>2129</span> 
+                        <br />
+                        <span class="small-text">hours on record</span>
+                    </td>
+                    <td>
+                        <img src="ff14.png" alt="Final Fantasy XIV" class='game-image' />
+                    </td>
+                </tr>
+            </table>
         </div>
         <div class='block left'>
-            <span>In 2019, you completed</span>
-            <span>14 games</span>
+            <table class='display-table'>
+                <tr>
+                    <td>
+                        <img src="ff14.png" alt="Final Fantasy XIV" class='game-image' />
+                    </td>
+                    <td>
+                        <span class='small-text'>The shortest game you beat was</span>
+                        <br />
+                        <span class='big-text'>[XXX GAME NAME]</span>
+                        <br />
+                        <span class='small-text'>in a mere</span>
+                        <br />
+                        <span class='big-text'>[XXX HOURS]</span> 
+                        <span class="small-text"> hours</span>
+                    </td>
+                    
+                </tr>
+            </table>
         </div>
         <div class='block right'>
             <span>In 2019, you completed</span>
