@@ -15,6 +15,7 @@ body {
 
 .nav-bar .left {
     float: left;
+    transition: .3s;
 }
 
 .nav-bar .left:hover, .page-link:hover {
@@ -53,6 +54,7 @@ body {
     border-left-style: solid;
     border-left-color: rgb(79, 105, 144);
     border-left-width: 1px;
+    transition: .3s;
 }
 
 .header-text {
@@ -100,6 +102,11 @@ body {
     height: 300px;
     margin-top: 30px;
     margin-bottom: 30px;
+    transition: .2s;
+}
+
+.block:hover {
+    background-color: rgba(87, 175, 245, 1);
 }
 
 .scroll-body .left {
@@ -147,3 +154,40 @@ body {
     border-width: 4px
 }
 
+.footer {
+    height: 200px;
+    background-color: rgb(79, 105, 144);
+    text-align: center;
+    font-family: 'Assistant';
+    color: rgb(153, 153, 153);
+    position: relative;
+}
+
+.footer-split-container {
+    height:100px;
+    position: absolute;
+    top: 50%;
+    margin-top: -50px;
+    width: 100%;
+}
+
+.footer-left-container {
+    width: 49.42%;
+    float: left;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.footer-right-container {
+    width: 49.42%;
+    float: left;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.median {
+    width: .05%;
+    background: black;
+    float: left;
+    height: 100%;
+}
