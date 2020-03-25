@@ -1,27 +1,80 @@
 <!DOCTYPE html>
 <html lang='en'>
-  <head>
-    <meta charset='UTF-8'/>
+
+<style>
+    html, body {
+        height: 100%;
+    }
+
+    body {
+        overflow: hidden;
+    }
+
+    .footer {
+        position: sticky !important;
+        bottom: 0;
+    }
+</style>
+
+<head>
+    <meta charset='UTF-8' />
     <title>Home</title>
-    <link rel='stylesheet' href='styles.css'/>
-  </head>
-  <body>
+    <link rel='stylesheet' href='styles.css' />
+    <link href='https://fonts.googleapis.com/css?family=Assistant' rel='stylesheet'>
+</head>
+
+<body>
     <div class='nav-bar full-width-container'>
-        <table width="100%" class='nav-bar-table'>
-            <tr>
-                <td width="5%" class="color cell">
-                    Home
-                </td>
-                <td width="15%" class="cell">
-                </td>
-                <td width= "80%" class="color cell">
-                    other
-                </td>
-            </tr>
-        </table>
+        <div class="cell left" onclick="window.location='./index.html'">
+            <img src="https://img.icons8.com/metro/26/000000/home.png" class='home-icon'>
+            <span class="home-span">Home</span>
+        </div>
+        <div class="cell right">
+            <div class="page-link last" onclick="window.location='./switch.html'">
+                <span class="header-text">Switch</span>
+            </div>
+            <div class="page-link" onclick="window.location='./psfour.html'">
+                <span class="header-text">PS4</span>
+            </div>
+            <div class="page-link first" onclick="window.location='./steam.html'">
+                <span class="header-text">PC/Steam</span>
+            </div>
+            
+        </div>
     </div>
-    <div class="contents-container">
-        stuff
+    <div class="scroll-body">
+        
+        <div class='no-game-container'>
+
+            <span class='big-text'>
+                About
+            </span>
+            <br />
+            <span class='small-text'>
+              Welcome to Linda's 2019 year in review for all the video games 
+              that she's played across all the gaming platforms she owns.
+            </span>
+            <br />
+            <span class='big-text'>
+              ENJOY!
+          </span>
+        </div>
     </div>
-  </body>
+    <div class="footer">
+        <div class="footer-split-container">
+            <div class="footer-left-container">
+                test1
+            </div>
+            <div class="median"></div>
+            <div class="footer-right-container">
+                Credits:
+                <br />
+                <a href="https://icons8.com/icon/72/home">Home icon by Icons8</a>
+                Assistant font supplied by Google Fonts.
+            </div>
+        </div>
+        
+    </div>
+</body>
+
 </html>
