@@ -3,6 +3,16 @@ body {
     background-color: rgb(21, 38, 49);
 }
 
+a {
+    text-decoration: none;
+    color: rgb(153, 153, 153);
+    transition: .1s;
+}
+
+a:hover {
+    color: rgb(255, 255, 255, 1);
+}
+
 .full-width-container {
     width: 100%;
     margin-top: 50px;
@@ -139,6 +149,13 @@ body {
     color: rgb(255, 255, 255, 1);
 }
 
+.huge-text {
+    font-family: 'Assistant';
+    font-size: 175px;
+    font-weight: 400;
+    color: rgb(255, 255, 255, 1);
+}
+
 .display-table {
     height: 260px;
     padding: 20px 0px;
@@ -157,6 +174,7 @@ body {
 
 .no-game-container {
     text-align: center;
+    padding: 30px;
 }
 
 .footer {
@@ -164,12 +182,12 @@ body {
     background-color: rgb(79, 105, 144);
     text-align: center;
     font-family: 'Assistant';
-    color: rgb(153, 153, 153);
+    color: rgb(206, 206, 206);
     position: relative;
 }
 
 .footer-split-container {
-    height:100px;
+    height:120px;
     position: absolute;
     top: 50%;
     margin-top: -50px;
